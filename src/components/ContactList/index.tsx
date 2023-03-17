@@ -1,12 +1,10 @@
-import './style.css'
-
 type MenuProps = {
     children:React.ReactNode
 }
-export function Menu({children}:MenuProps){
+export function ContactList({children}:MenuProps){
     return (
         <>
-            <div className="menu">
+            <div className="ContactList">
                 {children}
             </div>
         </>

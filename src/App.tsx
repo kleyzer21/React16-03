@@ -4,6 +4,7 @@ import { NavBarMenu } from "./components/NavBarMenu"
 import { Home } from "./pages/Home"
 import { StateExample } from "./pages/StateExample"
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Agenda } from "./components/Agenda"
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
             <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/gallery" element={<Gallery/>}/>
-
+            <Route path="/agenda" element={<Agenda/>}/>
             </Routes>
+            
             <NavBarMenu />
             </BrowserRouter>
 

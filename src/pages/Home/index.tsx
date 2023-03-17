@@ -12,9 +12,13 @@ export function Home() {
             </header>
             <main>
               <Menu>
-        <MenuItem icon={<AddressBook size={24}/>} text="Agenda"/>
+        
         <Link to='./gallery'>
+            
         <MenuItem icon={<ImageSquare  size={24}/>} text="Galeria"/>
+        </Link>
+        <Link to='./Agenda'>
+        <MenuItem icon={<AddressBook size={24}/>} text="Agenda"/>
         </Link>
         
               </Menu>
