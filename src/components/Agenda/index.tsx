@@ -6,7 +6,7 @@ export function Agenda ( ) {
     return(
         <>
           <header>
-                <Title text='Agenda de contatos' />
+                <Title text='Agenda de contato' />
             </header>
             <main>
             <ContactList>
